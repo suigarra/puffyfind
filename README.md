@@ -23,3 +23,4 @@ you can configure all that stuff on ./src/main.rs
 these 2 lines are the ones that you should want if you are looking to configure the tool.
 ### note: the tool uses ftp for checking packages so it must be ftp mirrors
 ftp mirrors can be found in https://www.openbsd.org/ftp.html#ftp
+PLANETUNIX FTP MIRROR DOES NOT WORK BECAUSE IT DOESNT SUPPORT PASSIVE MODE
