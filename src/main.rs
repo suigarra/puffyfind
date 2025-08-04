@@ -6,7 +6,7 @@ fn main() -> Result<(), ftp_client::error::Error>  {
 
     let mut client = Client::connect(mirror, "anonymous", "anonymous")?;
    
-    let _ = client.cwd("pub/OpenBSD/7.7/packages/amd64");
+    let _ = client.cwd("pub/OpenBSD/7.7/packages/amd64")?;
     println!("{:?}", client.pwd());
 
     loop {
